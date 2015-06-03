@@ -1,0 +1,1 @@
+ar = @string.split(" ").map { |i| i.to_i }.sort.minmax.join(" ")
